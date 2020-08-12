@@ -1,0 +1,37 @@
+body {
+    width: 700px;
+    margin: 0 auto;
+    border: 3px dotted skyblue;
+}
+h1 {
+    margin: 0;
+    background-color: powderblue;
+    padding: 5px;
+}
+.main {
+    border: 2px solid chocolate;
+    margin: 30px;
+    background-color: whitesmoke;
+    padding: 40px;
+}
+img {
+    width: 150px;
+    height: 200px;
+    border: 2px solid skyblue;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    font-size: 1.2em;
+}
+
+footer > p {
+    margin: 0;
+    background-color: powderblue;
+    text-align: center;
+    padding: 10px;
+}
