@@ -1,0 +1,86 @@
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+body {    
+    background-color: #a5c093;
+}
+#wrapper {
+    width: 1000px;
+    padding: 0 15px;
+    margin: 0 auto;
+    background-color: white;
+}
+nav {
+    background-color: #368cbf;
+}
+ul {
+    padding: 0;
+}
+li {
+    list-style: none;
+    display: inline-block;
+    width: 194px;
+    text-align: center;
+    padding: 15px;
+}
+li:hover {
+    background-color: #77bbe2;
+    cursor: pointer;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.main-pic {
+    width: 970px;
+}
+.l-section {
+    display: table;
+    clear: both;
+    margin: 30px 0;
+}
+.section-first {
+    float: left;
+    width: 23%;
+    margin-left: 1%;
+}
+.section-second {
+    float: left;
+    width: 46%;
+    margin: 0 3%;
+}
+.section-third {
+    float: left;
+    width: 23%;
+    margin-right: 1%;
+}
+article {
+    background-color: #eaeaea;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.1em;
+}
+h3 {
+    color: #181868;
+}
+figure {
+    margin-left: 0;
+    margin-right: 0;
+}
+.councillors-pic {
+    width: 220px;
+}
+figcaption {
+    color: #4d26a7;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+footer {
+    padding: 15px 30px;
+}
