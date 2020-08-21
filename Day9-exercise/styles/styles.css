@@ -1,0 +1,144 @@
+@charset "utf-8";
+*,*:before,*:after {
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+}
+h1, h2, a {
+    font-family: 'Righteous', cursive;
+}
+body {
+    margin: 0;
+    background-color: #e0e0e0;   
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+/* .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+} */
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    min-height: 100vh;
+}
+
+/* ---style for header--- */
+header {
+    background-color: #ae0a0a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+}
+header h1 {
+    margin: 0;
+}
+.btn-menu {
+    background-color: #ae0a0a;
+    color: white;
+}
+nav {
+    display: none;
+    width: 100%;
+}
+.show nav {
+    display: block;
+}
+a {
+    text-decoration: none;
+    color: white;
+    line-height: 2;
+}
+
+/* ---style for main--- */
+.banner {
+    position: relative;
+    margin-bottom: 30px;
+}
+.banner h2 {
+    color: white;
+    position: absolute;
+    font-size: 3em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+section {
+    margin: 20px;
+}
+.one-col h1 {
+    font-size: 24px;
+    text-align: center;
+}
+.three-col img {
+    margin-bottom: 10px;
+}
+
+/* ---style for footer--- */
+footer {
+    border-top: 1px dotted gray;
+    margin-top: 40px;
+}
+footer h2 {
+    font-size: 1.3em;
+}
+footer p {
+    font-size: 0.8em;
+}
+footer .row {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* ---style for responsible--- */
+@media(min-width: 768px) {
+    header {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    .material-icons {
+        display: none;
+    }
+    nav {
+        display: block;
+        width: 50%;
+    }
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+    .banner h2 {
+        font-size: 6em;
+    }
+    main .row {
+        display: flex;
+        justify-content: space-between;
+    }
+    .one-col {
+        padding: 0 130px;
+    }
+    .three-col {
+        width: 31%;
+    }
+}
