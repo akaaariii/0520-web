@@ -27,7 +27,7 @@ li:hover {
     background-color: #77bbe2;
     cursor: pointer;
 }
-a {
+main a {
     color: white;
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -83,4 +83,8 @@ figcaption {
 
 footer {
     padding: 15px 30px;
+}
+footer a {
+    text-decoration: none;
+    color: black;
 }
