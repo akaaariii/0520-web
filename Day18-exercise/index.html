@@ -9,63 +9,65 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header>
-        <h1>Slider and Gallery Exercise</h1>
-    </header>
-    <main>
-        <section class="hero-slider">
-            <div class="hero-slideshow cycle-slideshow"
-                data-cycle-fx="scrollHorz" 
-                data-cycle-timeout="0"
-                data-cycle-prev="#prev"
-                data-cycle-next="#next"
-                data-cycle-pager="#adv-custom-pager"
-                data-cycle-pager-template="<a href='#'><img src='{{src}}' alt='{{alt}}'></a>">
-                <img src="images/aurora-01.jpeg" alt="aurora1">
-                <img src="images/aurora-02.jpeg" alt="aurora2">
-                <img src="images/aurora-03.jpeg" alt="aurora3">
-                <img src="images/aurora-04.jpeg" alt="aurora4">
-            </div>
-            <div id="adv-custom-pager" class="hero-slider-th-container"></div>
-            <div class="hero-slider-control-container">
-                <button id="prev" class="prev"><span class="material-icons">
-                    navigate_before
-                    </span></button>
-                <button id="next" class="next"><span class="material-icons">
-                    navigate_next
-                    </span></button>
-            </div>
-        </section>
-        <section class="card-container">
-            <div class="card">
-                <img src="images/hands-with-flower.jpg" alt="hands with flower">
-                <h3 class="card-title">Hands with Flower</h3>
-            </div>
-            <div class="card">
-                <img src="images/lady-in-forest.jpg" alt="lady in forest">
-                <h3 class="card-title">Lady in Forest</h3>
-            </div>
-            <div class="card">
-                <img src="images/road-through-mountain.jpg" alt="road through mountain">
-                <h3 class="card-title">Road through Mountain</h3>
-            </div>
-            <div class="card">
-                <img src="images/skiers-on-mountain-top.jpg" alt="skiers on mountain top">
-                <h3 class="card-title">Skiers on Mountain Top</h3>
-            </div>
-            <div class="card">
-                <img src="images/sunset-over-lake.jpg" alt="sunset over lake">
-                <h3 class="card-title">Sunset Over Lake</h3>
-            </div>
-            <div class="card">
-                <img src="images/yosemite-national-park.jpg" alt="yosemite national park">
-                <h3 class="card-title">Yosemite National Park</h3>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2020 - For Educational Use Only</p>
-    </footer>
+    <div class="wrapper">
+        <header>
+            <h1>Slider and Gallery Exercise</h1>
+        </header>
+        <main>
+            <section class="hero-slider">
+                <div class="hero-slideshow cycle-slideshow"
+                    data-cycle-fx="scrollHorz" 
+                    data-cycle-timeout="0"
+                    data-cycle-prev="#prev"
+                    data-cycle-next="#next"
+                    data-cycle-pager="#adv-custom-pager"
+                    data-cycle-pager-template="<a href='#'><img src='{{src}}' alt='{{alt}}'></a>">
+                    <img src="images/aurora-01.jpeg" alt="aurora1">
+                    <img src="images/aurora-02.jpeg" alt="aurora2">
+                    <img src="images/aurora-03.jpeg" alt="aurora3">
+                    <img src="images/aurora-04.jpeg" alt="aurora4">
+                </div>
+                <div id="adv-custom-pager" class="hero-slider-th-container"></div>
+                <div class="hero-slider-control-container">
+                    <button id="prev" class="prev"><span class="material-icons">
+                        navigate_before
+                        </span></button>
+                    <button id="next" class="next"><span class="material-icons">
+                        navigate_next
+                        </span></button>
+                </div>
+            </section>
+            <section class="card-container">
+                <div class="card">
+                    <img src="images/hands-with-flower.jpg" alt="hands with flower">
+                    <h3 class="card-title">Hands with Flower</h3>
+                </div>
+                <div class="card">
+                    <img src="images/lady-in-forest.jpg" alt="lady in forest">
+                    <h3 class="card-title">Lady in Forest</h3>
+                </div>
+                <div class="card">
+                    <img src="images/road-through-mountain.jpg" alt="road through mountain">
+                    <h3 class="card-title">Road through Mountain</h3>
+                </div>
+                <div class="card">
+                    <img src="images/skiers-on-mountain-top.jpg" alt="skiers on mountain top">
+                    <h3 class="card-title">Skiers on Mountain Top</h3>
+                </div>
+                <div class="card">
+                    <img src="images/sunset-over-lake.jpg" alt="sunset over lake">
+                    <h3 class="card-title">Sunset Over Lake</h3>
+                </div>
+                <div class="card">
+                    <img src="images/yosemite-national-park.jpg" alt="yosemite national park">
+                    <h3 class="card-title">Yosemite National Park</h3>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2020 - For Educational Use Only</p>
+        </footer>
+    </div>
     <script src="scripts/jquery-3.4.1.min.js"></script>
     <script src="scripts/jquery.cycle2.min.js"></script>
 </body>

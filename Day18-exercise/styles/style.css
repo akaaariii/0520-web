@@ -1,6 +1,16 @@
 *, *:before, *:after {
     box-sizing: border-box;
 }
+/* -----for iPad pro----- */
+html, body {
+    height: 100%;
+}
+.wrapper {
+    width: 100%;
+    position: relative;
+    min-height: 100%;
+}
+/* ---------------------- */
 h1, h3, p, body {
     margin: 0;
 }
@@ -17,7 +27,18 @@ header, footer {
 main {
     max-width: 1000px;
     margin: 5px auto;
+    /* -----for iPad pro----- */
+    margin-bottom: 0;
+    padding-bottom: 45px;
+    /* ---------------------- */
 }
+/* -----for iPad pro----- */
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+/* ---------------------- */
 
 /* -----style for hero slider----- */
 .hero-slider {
